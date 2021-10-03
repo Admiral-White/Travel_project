@@ -1,0 +1,17 @@
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/bin/Debug/net5.0/Travel.Data.deps.json
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/bin/Debug/net5.0/Travel.Data.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/bin/Debug/net5.0/ref/Travel.Data.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/bin/Debug/net5.0/Travel.Data.pdb
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/bin/Debug/net5.0/Travel.Application.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/bin/Debug/net5.0/Travel.Domain.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/bin/Debug/net5.0/Travel.Domain.pdb
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/bin/Debug/net5.0/Travel.Application.pdb
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/obj/Debug/net5.0/Travel.Data.csproj.AssemblyReference.cache
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/obj/Debug/net5.0/Travel.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/obj/Debug/net5.0/Travel.Data.AssemblyInfoInputs.cache
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/obj/Debug/net5.0/Travel.Data.AssemblyInfo.cs
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/obj/Debug/net5.0/Travel.Data.csproj.CoreCompileInputs.cache
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/obj/Debug/net5.0/Travel.Data.csproj.CopyComplete
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/obj/Debug/net5.0/Travel.Data.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/obj/Debug/net5.0/ref/Travel.Data.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/obj/Debug/net5.0/Travel.Data.pdb

@@ -1,0 +1,10 @@
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Domain/bin/Debug/netstandard2.1/Travel.Domain.deps.json
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Domain/bin/Debug/netstandard2.1/Travel.Domain.dll
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Domain/bin/Debug/netstandard2.1/Travel.Domain.pdb
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Domain/obj/Debug/netstandard2.1/Travel.Domain.csproj.AssemblyReference.cache
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Domain/obj/Debug/netstandard2.1/Travel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Domain/obj/Debug/netstandard2.1/Travel.Domain.AssemblyInfoInputs.cache
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Domain/obj/Debug/netstandard2.1/Travel.Domain.AssemblyInfo.cs
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Domain/obj/Debug/netstandard2.1/Travel.Domain.csproj.CoreCompileInputs.cache
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Domain/obj/Debug/netstandard2.1/Travel.Domain.dll
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Domain/obj/Debug/netstandard2.1/Travel.Domain.pdb

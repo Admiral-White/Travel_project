@@ -1,0 +1,17 @@
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/bin/Debug/net5.0/Travel.Shared.deps.json
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/bin/Debug/net5.0/Travel.Shared.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/bin/Debug/net5.0/ref/Travel.Shared.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/bin/Debug/net5.0/Travel.Shared.pdb
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/bin/Debug/net5.0/Travel.Application.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/bin/Debug/net5.0/Travel.Domain.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/bin/Debug/net5.0/Travel.Application.pdb
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/bin/Debug/net5.0/Travel.Domain.pdb
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/obj/Debug/net5.0/Travel.Shared.csproj.AssemblyReference.cache
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/obj/Debug/net5.0/Travel.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/obj/Debug/net5.0/Travel.Shared.AssemblyInfoInputs.cache
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/obj/Debug/net5.0/Travel.Shared.AssemblyInfo.cs
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/obj/Debug/net5.0/Travel.Shared.csproj.CoreCompileInputs.cache
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/obj/Debug/net5.0/Travel.Shared.csproj.CopyComplete
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/obj/Debug/net5.0/Travel.Shared.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/obj/Debug/net5.0/ref/Travel.Shared.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/obj/Debug/net5.0/Travel.Shared.pdb

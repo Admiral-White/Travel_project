@@ -1,0 +1,13 @@
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/bin/Debug/netstandard2.1/Travel.Application.deps.json
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/bin/Debug/netstandard2.1/Travel.Application.dll
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/bin/Debug/netstandard2.1/Travel.Application.pdb
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/bin/Debug/netstandard2.1/Travel.Domain.dll
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/bin/Debug/netstandard2.1/Travel.Domain.pdb
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/obj/Debug/netstandard2.1/Travel.Application.csproj.AssemblyReference.cache
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/obj/Debug/netstandard2.1/Travel.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/obj/Debug/netstandard2.1/Travel.Application.AssemblyInfoInputs.cache
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/obj/Debug/netstandard2.1/Travel.Application.AssemblyInfo.cs
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/obj/Debug/netstandard2.1/Travel.Application.csproj.CoreCompileInputs.cache
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/obj/Debug/netstandard2.1/Travel.Application.csproj.CopyComplete
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/obj/Debug/netstandard2.1/Travel.Application.dll
+/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/obj/Debug/netstandard2.1/Travel.Application.pdb
