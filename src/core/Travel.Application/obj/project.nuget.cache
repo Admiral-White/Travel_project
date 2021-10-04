@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ynsR8kGw9v/UQsURDLlu86rl5ZKp4RMFJ4/cp7Shaqq01wVI5cqwWNADYgdyaOg8bnQRKZF8ADuyuuH4IJsYRA==",
+  "dgSpecHash": "wezQOn/hxsjbeOgSVjfnMcyQrQ5VakP5a27lSJ/NZ+gyHeeIQreeHPiIJVrvLuvDIpXmVPpwYPWSqkbNW46Rig==",
   "success": true,
   "projectFilePath": "/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/Travel.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/admiralwhite/.nuget/packages/fluentvalidation/10.3.3/fluentvalidation.10.3.3.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.3.3/fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
