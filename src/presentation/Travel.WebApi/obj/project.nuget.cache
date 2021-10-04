@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "s/e97AtsUhto/TgJ8YfIJ54Z7CZkBQcevI72ob1pfpZKx4EGxXBgt9MHTYkKolUJ8Jb7AMethzYWXHY8LU+N7A==",
+  "dgSpecHash": "jXuBgXjYFSad3nOw2ErrRhh+wAiukouJTG93gvmrP1aEvq1EvbUM0tAantTz1UzAExCrUIwUivhiSub9++zz7g==",
   "success": true,
   "projectFilePath": "/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/Travel.WebApi.csproj",
   "expectedPackageFiles": [
+    "/home/admiralwhite/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/fluentvalidation/10.3.3/fluentvalidation.10.3.3.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.3.3/fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
@@ -42,7 +44,8 @@
     "/home/admiralwhite/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "/home/admiralwhite/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+    "/home/admiralwhite/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
