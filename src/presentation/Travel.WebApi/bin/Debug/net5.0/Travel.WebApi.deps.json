@@ -119,7 +119,7 @@
           "Microsoft.Extensions.Caching.Abstractions.Reference": "5.0.0.0",
           "Microsoft.Extensions.Caching.Memory.Reference": "5.0.0.0",
           "Microsoft.Extensions.Configuration.Abstractions.Reference": "5.0.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "5.0.0.0",
+          "Microsoft.Extensions.Configuration.Binder.Reference": "5.0.0.0",
           "Microsoft.Extensions.Configuration.CommandLine": "5.0.0.0",
           "Microsoft.Extensions.Configuration": "5.0.0.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "5.0.0.0",
@@ -153,7 +153,7 @@
           "Microsoft.Extensions.Logging.EventSource": "5.0.0.0",
           "Microsoft.Extensions.Logging.TraceSource": "5.0.0.0",
           "Microsoft.Extensions.ObjectPool": "5.0.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "5.0.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions.Reference": "5.0.0.0",
           "Microsoft.Extensions.Options.DataAnnotations": "5.0.0.0",
           "Microsoft.Extensions.Options.Reference": "5.0.0.0",
           "Microsoft.Extensions.Primitives.Reference": "5.0.0.0",
@@ -167,7 +167,7 @@
           "mscorlib": "4.0.0.0",
           "netstandard": "2.1.0.0",
           "System.AppContext": "5.0.0.0",
-          "System.Buffers": "5.0.0.0",
+          "System.Buffers.Reference": "5.0.0.0",
           "System.Collections.Concurrent": "5.0.0.0",
           "System.Collections": "5.0.0.0",
           "System.Collections.Immutable.Reference": "5.0.0.0",
@@ -245,13 +245,13 @@
           "System.ObjectModel": "5.0.0.0",
           "System.Reflection.DispatchProxy": "5.0.0.0",
           "System.Reflection": "5.0.0.0",
-          "System.Reflection.Emit": "5.0.0.0",
+          "System.Reflection.Emit.Reference": "5.0.0.0",
           "System.Reflection.Emit.ILGeneration": "5.0.0.0",
           "System.Reflection.Emit.Lightweight": "5.0.0.0",
           "System.Reflection.Extensions": "5.0.0.0",
           "System.Reflection.Metadata": "5.0.0.0",
           "System.Reflection.Primitives": "5.0.0.0",
-          "System.Reflection.TypeExtensions": "5.0.0.0",
+          "System.Reflection.TypeExtensions.Reference": "5.0.0.0",
           "System.Resources.Reader": "5.0.0.0",
           "System.Resources.ResourceManager": "5.0.0.0",
           "System.Resources.Writer": "5.0.0.0",
@@ -273,7 +273,7 @@
           "System.Security.AccessControl": "5.0.0.0",
           "System.Security.Claims": "5.0.0.0",
           "System.Security.Cryptography.Algorithms": "5.0.0.0",
-          "System.Security.Cryptography.Cng": "5.0.0.0",
+          "System.Security.Cryptography.Cng.Reference": "5.0.0.0",
           "System.Security.Cryptography.Csp": "5.0.0.0",
           "System.Security.Cryptography.Encoding": "5.0.0.0",
           "System.Security.Cryptography.Primitives": "5.0.0.0",
@@ -286,7 +286,7 @@
           "System.Security.SecureString": "5.0.0.0",
           "System.ServiceModel.Web": "4.0.0.0",
           "System.ServiceProcess": "4.0.0.0",
-          "System.Text.Encoding.CodePages": "5.0.0.0",
+          "System.Text.Encoding.CodePages.Reference": "5.0.0.0",
           "System.Text.Encoding": "5.0.0.0",
           "System.Text.Encoding.Extensions": "5.0.0.0",
           "System.Text.Encodings.Web": "5.0.0.0",
@@ -327,12 +327,120 @@
           "Travel.WebApi.dll": {}
         }
       },
+      "AutoMapper/10.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.1.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.1": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.1.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "CsvHelper/27.1.1": {
+        "runtime": {
+          "lib/net5.0/CsvHelper.dll": {
+            "assemblyVersion": "27.0.0.0",
+            "fileVersion": "27.1.1.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/CsvHelper.dll": {}
+        }
+      },
+      "FluentValidation/10.3.3": {
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/10.3.3": {
+        "dependencies": {
+          "FluentValidation": "10.3.3",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
           }
+        }
+      },
+      "MailKit/2.15.0": {
+        "dependencies": {
+          "MimeKit": "2.15.1"
+        },
+        "runtime": {
+          "lib/net50/MailKit.dll": {
+            "assemblyVersion": "2.15.0.0",
+            "fileVersion": "2.15.0.0"
+          }
+        },
+        "compile": {
+          "lib/net50/MailKit.dll": {}
+        }
+      },
+      "MediatR/9.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Microsoft.CSharp/4.7.0": {},
@@ -465,6 +573,11 @@
           "Microsoft.Extensions.Primitives": "5.0.0"
         }
       },
+      "Microsoft.Extensions.Configuration.Binder/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/5.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
@@ -506,7 +619,17 @@
           "Microsoft.Extensions.Primitives": "5.0.0"
         }
       },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        }
+      },
       "Microsoft.Extensions.Primitives/5.0.0": {},
+      "Microsoft.NETCore.Platforms/2.0.0": {},
       "Microsoft.OpenApi/1.2.3": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -516,6 +639,35 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        }
+      },
+      "MimeKit/2.15.1": {
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.10",
+          "System.Buffers": "4.5.1",
+          "System.Reflection.TypeExtensions": "4.4.0",
+          "System.Security.Cryptography.Pkcs": "4.7.0",
+          "System.Text.Encoding.CodePages": "4.4.0"
+        },
+        "runtime": {
+          "lib/net50/MimeKit.dll": {
+            "assemblyVersion": "2.15.0.0",
+            "fileVersion": "2.15.1.0"
+          }
+        },
+        "compile": {
+          "lib/net50/MimeKit.dll": {}
+        }
+      },
+      "Portable.BouncyCastle/1.8.10": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.10.0",
+            "fileVersion": "1.8.10.1"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
@@ -683,6 +835,7 @@
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
+      "System.Buffers/4.5.1": {},
       "System.Collections.Immutable/5.0.0": {
         "compile": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {}
@@ -705,8 +858,32 @@
         }
       },
       "System.Memory/4.5.3": {},
+      "System.Reflection.Emit/4.7.0": {},
+      "System.Reflection.TypeExtensions/4.4.0": {},
+      "System.Security.Cryptography.Cng/4.7.0": {},
+      "System.Security.Cryptography.Pkcs/4.7.0": {
+        "dependencies": {
+          "System.Security.Cryptography.Cng": "4.7.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.4.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      },
       "Travel.Application/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.1.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
+          "FluentValidation": "10.3.3",
+          "FluentValidation.DependencyInjectionExtensions": "10.3.3",
+          "MediatR": "9.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "Travel.Domain": "1.0.0"
         },
         "runtime": {
@@ -739,6 +916,10 @@
       },
       "Travel.Shared/1.0.0": {
         "dependencies": {
+          "CsvHelper": "27.1.1",
+          "MailKit": "2.15.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "5.0.0",
+          "MimeKit": "2.15.1",
           "Travel.Application": "1.0.0"
         },
         "runtime": {
@@ -1234,7 +1415,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.Extensions.Configuration.Binder/5.0.0.0": {
+      "Microsoft.Extensions.Configuration.Binder.Reference/5.0.0.0": {
         "compile": {
           "Microsoft.Extensions.Configuration.Binder.dll": {}
         },
@@ -1438,7 +1619,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/5.0.0.0": {
+      "Microsoft.Extensions.Options.ConfigurationExtensions.Reference/5.0.0.0": {
         "compile": {
           "Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
         },
@@ -1522,7 +1703,7 @@
         },
         "compileOnly": true
       },
-      "System.Buffers/5.0.0.0": {
+      "System.Buffers.Reference/5.0.0.0": {
         "compile": {
           "System.Buffers.dll": {}
         },
@@ -1990,7 +2171,7 @@
         },
         "compileOnly": true
       },
-      "System.Reflection.Emit/5.0.0.0": {
+      "System.Reflection.Emit.Reference/5.0.0.0": {
         "compile": {
           "System.Reflection.Emit.dll": {}
         },
@@ -2026,7 +2207,7 @@
         },
         "compileOnly": true
       },
-      "System.Reflection.TypeExtensions/5.0.0.0": {
+      "System.Reflection.TypeExtensions.Reference/5.0.0.0": {
         "compile": {
           "System.Reflection.TypeExtensions.dll": {}
         },
@@ -2158,7 +2339,7 @@
         },
         "compileOnly": true
       },
-      "System.Security.Cryptography.Cng/5.0.0.0": {
+      "System.Security.Cryptography.Cng.Reference/5.0.0.0": {
         "compile": {
           "System.Security.Cryptography.Cng.dll": {}
         },
@@ -2236,7 +2417,7 @@
         },
         "compileOnly": true
       },
-      "System.Text.Encoding.CodePages/5.0.0.0": {
+      "System.Text.Encoding.CodePages.Reference/5.0.0.0": {
         "compile": {
           "System.Text.Encoding.CodePages.dll": {}
         },
@@ -2442,12 +2623,68 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/10.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
+      "path": "automapper/10.1.1",
+      "hashPath": "automapper.10.1.1.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xSWoVzOipuDU4PeZcUfaZQ+xqXU8QmGv5jrdlxt3MYm9xaOmrefqcfzGQ3SQ+D+8wfBa/ZwSuL0qKOVj080inA==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/8.1.1",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512"
+    },
+    "CsvHelper/27.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lo5yypClBORR2XiWPRxQApaA4C2R4GVCIPVRt9HfaLxLmVQtg/KZiOYsd4luLgyOxkUatF9R0QdFQYk7Y2l0cw==",
+      "path": "csvhelper/27.1.1",
+      "hashPath": "csvhelper.27.1.1.nupkg.sha512"
+    },
+    "FluentValidation/10.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgRC+7q4mnmDHE9ehk2cvb+FDTy/gtw5iBoKFY3FVp1ZwFsLS0kIcdSpNlCO3XyyNIzZI2ca8I/YiFG9pM6x0Q==",
+      "path": "fluentvalidation/10.3.3",
+      "hashPath": "fluentvalidation.10.3.3.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/10.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kol9KlAn2pijRa0vLCzAPcp8Ql8yZdIRrO80eMVLswXQ0v6ai+ihOdqF/qPJCMXNWBnTcTGYjp1tZtizPWO+Cg==",
+      "path": "fluentvalidation.dependencyinjectionextensions/10.3.3",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512"
+    },
     "Humanizer.Core/2.8.26": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
+    },
+    "MailKit/2.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9ihv6pRmjmBEAP4eXlDeo9srFQF9dVtYP1/jzj3I3BV9tBRk66NLdAF+8jkgUtauMKmns0yBvtfMFiBnNkHKDQ==",
+      "path": "mailkit/2.15.0",
+      "hashPath": "mailkit.2.15.0.nupkg.sha512"
+    },
+    "MediatR/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "path": "mediatr/9.0.0",
+      "hashPath": "mediatr.9.0.0.nupkg.sha512"
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
+      "hashPath": "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -2547,6 +2784,13 @@
       "path": "microsoft.extensions.configuration.abstractions/5.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Configuration.Binder/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Of1Irt1+NzWO+yEYkuDh5TpT4On7LKl98Q9iLqCdOZps6XXEWDj3AKtmyvzJPVXZe4apmkJJIiDL7rR1yC+hjQ==",
+      "path": "microsoft.extensions.configuration.binder/5.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection/5.0.2": {
       "type": "package",
       "serviceable": true,
@@ -2589,6 +2833,13 @@
       "path": "microsoft.extensions.options/5.0.0",
       "hashPath": "microsoft.extensions.options.5.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-280RxNJqOeQqq47aJLy5D9LN61CAWeuRA83gPToQ8B9jl9SNdQ5EXjlfvF66zQI5AXMl+C/3hGnbtIEN+X3mqA==",
+      "path": "microsoft.extensions.options.configurationextensions/5.0.0",
+      "hashPath": "microsoft.extensions.options.configurationextensions.5.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.Primitives/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2596,12 +2847,33 @@
       "path": "microsoft.extensions.primitives/5.0.0",
       "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
     },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
     "Microsoft.OpenApi/1.2.3": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "MimeKit/2.15.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JINoA9befTsiIGMKLcfPxPC7q1Di4XhJMDErYL1vyKUGRe91n/4GHgvwE04LmWy4uamvpfPkVCTyXmykEnZD0Q==",
+      "path": "mimekit/2.15.1",
+      "hashPath": "mimekit.2.15.1.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.8.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XLhjNAwuVB9ynwn11l5K44eyozh8q6gFseTrlnLNttejimglX7+F9+vxh60LPjvA/DAt6fUdS43N3ah8K6eaWg==",
+      "path": "portable.bouncycastle/1.8.10",
+      "hashPath": "portable.bouncycastle.1.8.10.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
       "type": "package",
@@ -2659,6 +2931,13 @@
       "path": "swashbuckle.aspnetcore.swaggerui/5.6.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
     },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
     "System.Collections.Immutable/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2686,6 +2965,41 @@
       "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.TypeExtensions/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
+      "path": "system.reflection.typeextensions/4.4.0",
+      "hashPath": "system.reflection.typeextensions.4.4.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Cng/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4WQjFuypWtxb/bl/YwEE7LYGn4fgpsikFfBU6xwEm4YBYiRAhXAEJ62lILBu2JJSFbClIAntFTGfDZafn8yZTg==",
+      "path": "system.security.cryptography.cng/4.7.0",
+      "hashPath": "system.security.cryptography.cng.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Srzh6YlhjuMxaqMyeCCdZs22cucaUAG6SKDd3gNHBJmre0VZ71ekzWu9rvLD4YXPetyNdPvV6Qst+8C++9v3Q==",
+      "path": "system.security.cryptography.pkcs/4.7.0",
+      "hashPath": "system.security.cryptography.pkcs.4.7.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+      "path": "system.text.encoding.codepages/4.4.0",
+      "hashPath": "system.text.encoding.codepages.4.4.0.nupkg.sha512"
     },
     "Travel.Application/1.0.0": {
       "type": "project",
@@ -3112,7 +3426,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.Configuration.Binder/5.0.0.0": {
+    "Microsoft.Extensions.Configuration.Binder.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3282,7 +3596,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/5.0.0.0": {
+    "Microsoft.Extensions.Options.ConfigurationExtensions.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3352,7 +3666,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Buffers/5.0.0.0": {
+    "System.Buffers.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3742,7 +4056,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Reflection.Emit/5.0.0.0": {
+    "System.Reflection.Emit.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3772,7 +4086,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Reflection.TypeExtensions/5.0.0.0": {
+    "System.Reflection.TypeExtensions.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3882,7 +4196,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Security.Cryptography.Cng/5.0.0.0": {
+    "System.Security.Cryptography.Cng.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3947,7 +4261,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Text.Encoding.CodePages/5.0.0.0": {
+    "System.Text.Encoding.CodePages.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
