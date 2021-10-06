@@ -10,6 +10,8 @@ namespace Travel.WebApi.Controllers
     [Route("api/[controller]")]
     public class TourListsController : ControllerBase
     {
+        // CQRS will be enforced in this class 
+        
         
         private readonly TravelDbContext _context;
 
