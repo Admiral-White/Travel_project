@@ -17,6 +17,7 @@ using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Travel.Application;
+using Travel.Data;
 using Travel.Data.Contexts;
 using Travel.Shared;
 using Travel.WebApi.Filter;
@@ -42,7 +43,7 @@ namespace Travel.WebApi
             services.AddHttpContextAccessor();
             services.AddControllersWithViews(options => options.Filters.Add(new ApiExceptionFilter()));
             services.AddApplication();
-            
+            services.AddInfrastructureData();
             services.AddInfrastructureShared(Configuration);
             services.Configure<ApiBehaviorOptions>(options => options.SuppressModelStateInvalidFilter = true);
             services.AddDbContext<TravelDbContext>(options => options.UseSqlite("DataSource=TravelTourDatabase.sqlite3"));
