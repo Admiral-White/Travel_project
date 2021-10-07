@@ -6,10 +6,10 @@ using Travel.Application.Commons.Behaviours;
 
 namespace Travel.Application
 {
-    public class DependencyInjection
+    public static class DependencyInjection
     {
         // i commented the reference code 'this' in the parameter body before IServiceCollection
-        public static IServiceCollection AddApplication (IServiceCollection services)
+        public static IServiceCollection AddApplication (this IServiceCollection services)
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());

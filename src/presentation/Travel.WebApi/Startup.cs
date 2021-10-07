@@ -13,8 +13,13 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Travel.Application;
 using Travel.Data.Contexts;
+using Travel.Shared;
+using Travel.WebApi.Filter;
 
 namespace Travel.WebApi
     
@@ -33,9 +38,15 @@ namespace Travel.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+           
+            services.AddHttpContextAccessor();
+            services.AddControllersWithViews(options => options.Filters.Add(new ApiExceptionFilter()));
+            services.AddApplication();
             
-            services.AddDbContext<TravelDbContext>(
-                options => options.UseSqlite("DataSource=TravelTourDatabase.sqlite3"));
+            services.AddInfrastructureShared(Configuration);
+            services.Configure<ApiBehaviorOptions>(options => options.SuppressModelStateInvalidFilter = true);
+            services.AddDbContext<TravelDbContext>(options => options.UseSqlite("DataSource=TravelTourDatabase.sqlite3"));
+            
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

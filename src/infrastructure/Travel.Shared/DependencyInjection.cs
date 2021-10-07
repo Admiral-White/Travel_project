@@ -7,10 +7,10 @@ using Travel.Shared.Services;
 
 namespace Travel.Shared
 {
-    public class DependencyInjection
+    public static class DependencyInjection
     {
         // i removed the this reference from the parameter bracket
-        public static IServiceCollection AddInfrastructureShared ( IServiceCollection services, IConfiguration config)
+        public static IServiceCollection AddInfrastructureShared ( this IServiceCollection services, IConfiguration config)
         {
             services.Configure<MailSettings>(config.GetSection("MailSettings"));
             services.AddTransient<IDateTime, DateTimeService>();
