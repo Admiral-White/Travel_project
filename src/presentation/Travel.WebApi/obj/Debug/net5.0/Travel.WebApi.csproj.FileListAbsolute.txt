@@ -73,3 +73,5 @@
 /home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/MimeKit.dll
 /home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/BouncyCastle.Crypto.dll
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.Versioning.dll
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
