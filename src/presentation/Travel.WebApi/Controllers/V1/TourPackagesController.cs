@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using Travel.Data.Contexts;
 using Travel.Domain.Entities;
-namespace Travel.WebApi.Controllers
+namespace Travel.WebApi.Controllers.V1
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class TourPackagesController : ControllerBase
+    public class TourPackagesController : ApiController
     {
         private readonly TravelDbContext _context;
         public TourPackagesController(TravelDbContext context)

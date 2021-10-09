@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Mq80J4D4IEq5QH0raRkC3WThqxzRjgszkTFyVYvV+WQiVnBB6JXzb95zDfggfLZbdR3qSsg93qFEp1uivPZOUw==",
+  "dgSpecHash": "qdPeB1a63lnak2oRfwB3ogY5wkLOKivAryuJERTqoc+/QWAzzL5KVUgWaq6Uow35ArDa8IKvS5lYS7S5TUe9Iw==",
   "success": true,
   "projectFilePath": "/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/Travel.WebApi.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,8 @@
     "/home/admiralwhite/.nuget/packages/mailkit/2.15.0/mailkit.2.15.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/microsoft.aspnetcore.mvc.versioning/5.0.0/microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/microsoft.aspnetcore.mvc.versioning.apiexplorer/5.0.0/microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/microsoft.data.sqlite.core/5.0.10/microsoft.data.sqlite.core.5.0.10.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

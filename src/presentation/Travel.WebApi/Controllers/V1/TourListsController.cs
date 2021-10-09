@@ -10,11 +10,11 @@ using Travel.Application.TourLists.Queries.GetTours;
 using Travel.Data.Contexts;
 using Travel.Domain.Entities;
 
-namespace Travel.WebApi.Controllers
+namespace Travel.WebApi.Controllers.V1
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class TourListsController : ControllerBase
+    public class TourListsController : ApiController
     {
         
         // CQRS will be enforced in this class 
