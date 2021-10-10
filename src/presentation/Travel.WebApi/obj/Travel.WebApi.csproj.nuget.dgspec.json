@@ -211,6 +211,62 @@
         }
       }
     },
+    "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/Travel.Identities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/Travel.Identities.csproj",
+        "projectName": "Travel.Identities",
+        "projectPath": "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/Travel.Identities.csproj",
+        "packagesPath": "/home/admiralwhite/.nuget/packages/",
+        "outputPath": "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/admiralwhite/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/Travel.Application.csproj": {
+                "projectPath": "/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/Travel.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/Travel.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -312,6 +368,9 @@
               },
               "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/Travel.Data.csproj": {
                 "projectPath": "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/Travel.Data.csproj"
+              },
+              "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/Travel.Identities.csproj": {
+                "projectPath": "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/Travel.Identities.csproj"
               },
               "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/Travel.Shared.csproj": {
                 "projectPath": "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/Travel.Shared.csproj"

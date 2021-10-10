@@ -1226,6 +1226,19 @@
           "bin/placeholder/Travel.Domain.dll": {}
         }
       },
+      "Travel.Identities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Travel.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Travel.Identities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Travel.Identities.dll": {}
+        }
+      },
       "Travel.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -3987,6 +4000,11 @@
       "path": "../../core/Travel.Domain/Travel.Domain.csproj",
       "msbuildProject": "../../core/Travel.Domain/Travel.Domain.csproj"
     },
+    "Travel.Identities/1.0.0": {
+      "type": "project",
+      "path": "../../infrastructure/Travel.Identities/Travel.Identities.csproj",
+      "msbuildProject": "../../infrastructure/Travel.Identities/Travel.Identities.csproj"
+    },
     "Travel.Shared/1.0.0": {
       "type": "project",
       "path": "../../infrastructure/Travel.Shared/Travel.Shared.csproj",
@@ -4010,6 +4028,7 @@
       "Swashbuckle.AspNetCore >= 5.6.3",
       "Travel.Application >= 1.0.0",
       "Travel.Data >= 1.0.0",
+      "Travel.Identities >= 1.0.0",
       "Travel.Shared >= 1.0.0"
     ]
   },
@@ -4043,6 +4062,9 @@
             },
             "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/Travel.Data.csproj": {
               "projectPath": "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Data/Travel.Data.csproj"
+            },
+            "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/Travel.Identities.csproj": {
+              "projectPath": "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/Travel.Identities.csproj"
             },
             "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/Travel.Shared.csproj": {
               "projectPath": "/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Shared/Travel.Shared.csproj"
