@@ -96,3 +96,6 @@
 /home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/runtimes/win-x64/native/netstandard2.0/SQLite.Interop.dll
 /home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/runtimes/win-x86/native/netstandard2.0/SQLite.Interop.dll
 /home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Logs/log20211009.json
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Logs/log20211010.json
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Travel.Identities.dll
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Travel.Identities.pdb

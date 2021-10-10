@@ -1,0 +1,17 @@
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/bin/Debug/net5.0/Travel.Identities.deps.json
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/bin/Debug/net5.0/Travel.Identities.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/bin/Debug/net5.0/ref/Travel.Identities.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/bin/Debug/net5.0/Travel.Identities.pdb
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/bin/Debug/net5.0/Travel.Application.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/bin/Debug/net5.0/Travel.Domain.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/bin/Debug/net5.0/Travel.Application.pdb
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/bin/Debug/net5.0/Travel.Domain.pdb
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/obj/Debug/net5.0/Travel.Identities.csproj.AssemblyReference.cache
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/obj/Debug/net5.0/Travel.Identities.GeneratedMSBuildEditorConfig.editorconfig
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/obj/Debug/net5.0/Travel.Identities.AssemblyInfoInputs.cache
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/obj/Debug/net5.0/Travel.Identities.AssemblyInfo.cs
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/obj/Debug/net5.0/Travel.Identities.csproj.CoreCompileInputs.cache
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/obj/Debug/net5.0/Travel.Identities.csproj.CopyComplete
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/obj/Debug/net5.0/Travel.Identities.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/obj/Debug/net5.0/ref/Travel.Identities.dll
+/home/admiralwhite/Desktop/Travel_project/src/infrastructure/Travel.Identities/obj/Debug/net5.0/Travel.Identities.pdb
