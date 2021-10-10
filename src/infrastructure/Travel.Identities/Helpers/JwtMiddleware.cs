@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using Travel.Application.Commons.Interfaces;
 
 namespace Travel.Identities.Helpers
 {
