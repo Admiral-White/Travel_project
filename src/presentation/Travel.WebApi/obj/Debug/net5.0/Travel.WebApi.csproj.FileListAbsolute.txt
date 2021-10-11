@@ -99,3 +99,12 @@
 /home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Logs/log20211010.json
 /home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Travel.Identities.dll
 /home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Travel.Identities.pdb
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Logs/log20211011.json

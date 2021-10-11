@@ -23,8 +23,8 @@ namespace Travel.Identities.Services
                 Id = 1,
                 FirstName = "Yourname",
                 LastName = "Yoursurname",
-                Username = "yoursuperhero",
-                Password = "Pass123!"
+                Username = "Man111",
+                Password = "Pass111"
             }
         };
 
