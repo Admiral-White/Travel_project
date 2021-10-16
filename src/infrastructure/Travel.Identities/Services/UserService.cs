@@ -16,15 +16,15 @@ namespace Travel.Identities.Services
     public class UserService : IUserService
     {
         
-        private readonly List<User> _users = new List<User>
+        private readonly List<User> _users = new()
         {
             new User
             {
                 Id = 1,
-                FirstName = "Yourname",
-                LastName = "Yoursurname",
-                Username = "Man111",
-                Password = "Pass111"
+                FirstName = "Your name",
+                LastName = "Your surname",
+                Username = "Man",
+                Password = "Pass"
             }
         };
 
@@ -48,7 +48,7 @@ namespace Travel.Identities.Services
 
         private string GenerateJwtToken(User user)
         {
-            byte[] key = Encoding.ASCII.GetBytes(_authSettings.Secret);
+            var key = Encoding.ASCII.GetBytes(_authSettings.Secret);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new[] { new Claim("id", user.Id.ToString()) }),

@@ -47,8 +47,8 @@ namespace Travel.WebApi
 
             services.AddHttpContextAccessor();
             services.AddControllersWithViews(options => options.Filters.Add(new ApiExceptionFilter()));
-            services.AddApplication();
-            services.AddInfrastructureData();
+            services.AddApplication(Configuration); // i added the configuration setting
+            services.AddInfrastructureData(Configuration); // added to enable the redis config
             services.AddInfrastructureShared(Configuration);
             services.AddInfrastructureIdentity(Configuration);
             services.Configure<ApiBehaviorOptions>(options => options.SuppressModelStateInvalidFilter = true);
@@ -57,7 +57,8 @@ namespace Travel.WebApi
 
 
             services.AddControllers();
-            services.AddSwaggerGen(c =>
+            
+            /*services.AddSwaggerGen(c =>
             {
                 c.OperationFilter<SwaggerDefaultValues>(); // used to update swagger documentation
                 // c.SwaggerDoc("v1", new OpenApiInfo { Title = "Travel.WebApi", Version = "v1" });
@@ -85,7 +86,7 @@ namespace Travel.WebApi
                             }, new List<string>()
                         }
                     });
-            });
+            });*/
             
 
                 services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();

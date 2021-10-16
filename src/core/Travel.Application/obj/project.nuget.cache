@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rPaFF7/HYs2uWLFhia6l69ZXD2/Ywi8udCkFVFFeMH702m4pHmX4ljGZBbhoZ7ldP89/WhaEhllGbUkdIPMdnA==",
+  "dgSpecHash": "/LGzg0T7rL+lM0fJ6krRHFtqtNmznYB803XZvqLmGGHNB55S3xZuxV2I8kBcYxXNFClAOpMOYHoxLgLEoeMM+g==",
   "success": true,
   "projectFilePath": "/home/admiralwhite/Desktop/Travel_project/src/core/Travel.Application/Travel.Application.csproj",
   "expectedPackageFiles": [
@@ -16,20 +16,30 @@
     "/home/admiralwhite/.nuget/packages/microsoft.entityframeworkcore.analyzers/5.0.10/microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/microsoft.extensions.caching.abstractions/5.0.0/microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/microsoft.extensions.caching.memory/5.0.0/microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/microsoft.extensions.caching.stackexchangeredis/5.0.1/microsoft.extensions.caching.stackexchangeredis.5.0.1.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/microsoft.extensions.configuration/5.0.0/microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.2/microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/pipelines.sockets.unofficial/2.0.17/pipelines.sockets.unofficial.2.0.17.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/stackexchange.redis/2.0.593/stackexchange.redis.2.0.593.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/system.diagnostics.performancecounter/4.5.0/system.diagnostics.performancecounter.4.5.0.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/system.io.pipelines/4.5.1/system.io.pipelines.4.5.1.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
     "/home/admiralwhite/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
-    "/home/admiralwhite/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "/home/admiralwhite/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/system.threading.channels/4.5.0/system.threading.channels.4.5.0.nupkg.sha512",
+    "/home/admiralwhite/.nuget/packages/system.threading.tasks.extensions/4.5.1/system.threading.tasks.extensions.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }

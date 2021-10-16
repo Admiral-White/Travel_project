@@ -108,3 +108,5 @@
 /home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
 /home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
 /home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Logs/log20211011.json
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Logs/log20211013.json
+/home/admiralwhite/Desktop/Travel_project/src/presentation/Travel.WebApi/bin/Debug/net5.0/Logs/log20211014.json

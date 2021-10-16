@@ -37,7 +37,7 @@ namespace Travel.Identities.Helpers
             try
             {
                 var tokenHandler = new JwtSecurityTokenHandler();
-                byte[] key = Encoding.ASCII.GetBytes(_authSettings.Secret);
+                var key = Encoding.ASCII.GetBytes(_authSettings.Secret);
                 tokenHandler.ValidateToken(token, new TokenValidationParameters
                 {
                     ValidateIssuerSigningKey = true,
@@ -54,6 +54,7 @@ namespace Travel.Identities.Helpers
             }
             catch
             {
+                // ignored
             }
         }
     }
